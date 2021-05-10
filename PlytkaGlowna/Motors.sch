@@ -148,13 +148,13 @@ Wire Wire Line
 	5950 3300 5850 3300
 Text Notes 6700 3200 0    118  ~ 24
 Motors\n
-Text GLabel 6800 3400 0    47   Input ~ 0
-AO1
 Text GLabel 6800 3500 0    47   Input ~ 0
+AO1
+Text GLabel 6800 3400 0    47   Input ~ 0
 AO2
-Text GLabel 8250 3450 0    47   Input ~ 0
-BO2
 Text GLabel 8250 3350 0    47   Input ~ 0
+BO2
+Text GLabel 8250 3450 0    47   Input ~ 0
 BO1
 $Comp
 L Connector_Generic:Conn_01x06 J6

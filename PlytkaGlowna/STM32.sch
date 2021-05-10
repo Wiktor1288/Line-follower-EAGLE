@@ -596,7 +596,7 @@ Wire Wire Line
 	1800 5500 2350 5500
 Text Notes 650  4400 0    118  ~ 24
 Reset Button
-Text GLabel 10200 4200 2    47   Output ~ 0
+Text GLabel 10200 4700 2    47   Output ~ 0
 PWM1
 $Comp
 L Connector_Generic:Conn_01x05 J2
@@ -649,23 +649,23 @@ Wire Wire Line
 	4600 4350 4600 4300
 Wire Notes Line
 	500  5900 6500 5900
-Text GLabel 10200 4700 2    47   Output ~ 0
+Text GLabel 10200 4200 2    47   Output ~ 0
 PWM2
 Text GLabel 10200 5100 2    47   Input ~ 0
 ENCODER22
 Text GLabel 10200 5000 2    47   Input ~ 0
 ENCODER21
-Text GLabel 8800 5000 0    47   Input ~ 0
-ENCODER12
 Text GLabel 8800 4900 0    47   Input ~ 0
+ENCODER12
+Text GLabel 8800 5000 0    47   Input ~ 0
 ENCODER11
-Text GLabel 10200 3900 2    47   Output ~ 0
+Text GLabel 10200 5700 2    47   Output ~ 0
 DIRECTION11
-Text GLabel 10200 3800 2    47   Output ~ 0
+Text GLabel 10200 5800 2    47   Output ~ 0
 DIRECTION12
-Text GLabel 10200 4800 2    47   Output ~ 0
+Text GLabel 10200 5600 2    47   Output ~ 0
 DIRECTION21
-Text GLabel 10200 4900 2    47   Output ~ 0
+Text GLabel 10200 5500 2    47   Output ~ 0
 DIRECTION22
 Text GLabel 10200 4400 2    47   Input ~ 0
 ADC1_IN8
@@ -708,14 +708,14 @@ Wire Wire Line
 Connection ~ 3000 1450
 Wire Wire Line
 	3000 1450 3200 1450
-Text GLabel 5250 6750 2    47   Output ~ 0
-ADC1_IN2
-Text GLabel 5250 6850 2    47   Output ~ 0
-ADC1_IN3
-Text GLabel 5250 6950 2    47   Output ~ 0
-ADC1_IN4
 Text GLabel 5250 6650 2    47   Output ~ 0
-ADC1_IN1
+ADC1_IN15
+Text GLabel 5250 6950 2    47   Output ~ 0
+ADC1_IN3
+Text GLabel 4750 6950 0    47   Output ~ 0
+ADC1_IN4
+Text GLabel 4750 6750 0    47   Output ~ 0
+ADC1_IN14
 Wire Notes Line
 	6500 500  6500 7800
 Text Notes 3650 6200 0    118  ~ 24
@@ -724,10 +724,10 @@ Text GLabel 10200 3700 2    47   Input ~ 0
 USART1_RX
 Text GLabel 10200 3600 2    47   Output ~ 0
 USART1_TX
-NoConn ~ 10200 5800
-NoConn ~ 10200 5700
-NoConn ~ 10200 5600
-NoConn ~ 10200 5500
+NoConn ~ 10200 3900
+NoConn ~ 10200 4800
+NoConn ~ 10200 4900
+NoConn ~ 10200 3800
 NoConn ~ 10200 5400
 NoConn ~ 10200 5300
 NoConn ~ 10200 5200
@@ -740,8 +740,8 @@ NoConn ~ 8800 5300
 NoConn ~ 8800 5200
 NoConn ~ 8800 5100
 NoConn ~ 10200 4600
-NoConn ~ 8800 4800
-NoConn ~ 8800 4700
+NoConn ~ 10200 2800
+NoConn ~ 8800 4600
 NoConn ~ 8800 4100
 $Comp
 L Connector_Generic:Conn_01x02 J1
@@ -1203,11 +1203,10 @@ F 3 "~" H 7700 3700 50  0001 C CNN
 $EndComp
 Text GLabel 6750 3550 1    50   Input ~ 0
 LED1
-NoConn ~ 8800 4300
 NoConn ~ 8800 4400
 NoConn ~ 8800 4500
-Text GLabel 10200 2900 2    47   Input ~ 0
-ADC1_IN2
+Text GLabel 8800 4800 0    47   Input ~ 0
+ADC1_IN15
 Text GLabel 10200 3000 2    47   Input ~ 0
 ADC1_IN3
 Text GLabel 10200 3100 2    47   Input ~ 0
@@ -1218,8 +1217,8 @@ Text GLabel 10200 3300 2    47   Input ~ 0
 ADC1_IN6
 Text GLabel 10200 3400 2    47   Input ~ 0
 ADC1_IN7
-Text GLabel 10200 2800 2    47   Input ~ 0
-ADC1_IN1
+Text GLabel 8800 4700 0    47   Input ~ 0
+ADC1_IN14
 Wire Wire Line
 	5250 7050 5250 7150
 Wire Wire Line
@@ -1234,12 +1233,14 @@ Wire Wire Line
 Wire Wire Line
 	4700 7150 4750 7150
 Connection ~ 4750 7150
-Text GLabel 4750 6950 0    47   Output ~ 0
-ADC1_IN8
 Text GLabel 4750 6650 0    47   Output ~ 0
+ADC1_IN8
+Text GLabel 5250 6850 2    47   Output ~ 0
 ADC1_IN5
-Text GLabel 4750 6750 0    47   Output ~ 0
-ADC1_IN6
 Text GLabel 4750 6850 0    47   Output ~ 0
+ADC1_IN6
+Text GLabel 5250 6750 2    47   Output ~ 0
 ADC1_IN7
+NoConn ~ 8800 4300
+NoConn ~ 10200 2900
 $EndSCHEMATC
