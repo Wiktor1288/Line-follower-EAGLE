@@ -1,0 +1,6 @@
+"Id";"Oznaczenie";"Obudowa";"Ilość";"Oznaczenie";"Dostawca i numer artykułu";
+1;"G***";"log";1;"LOGO";;;
+2;"U8,U7,U6,U5,U4,U3,U2,U1";"KTIR0711S";8;"KTIR0711S";;;
+3;"J1";"PinHeader_2x06_P2.54mm_Vertical";1;"Conn_02x06_Odd_Even";;;
+4;"R11,R8,R3,R4,R7,R12,R15,R16";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";8;"10k";;;
+5;"R9,R6,R1,R2,R5,R10,R13,R14";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";8;"220";;;

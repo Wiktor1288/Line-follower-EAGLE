@@ -685,15 +685,13 @@ Out8
 Wire Wire Line
 	6200 3550 6050 3550
 Connection ~ 6050 3550
-Text GLabel 7600 2250 0    50   Input ~ 0
+Text GLabel 7600 2550 0    50   Input ~ 0
 Out1
-Text GLabel 7600 2450 0    50   Input ~ 0
-Out3
 Text GLabel 8100 2250 2    50   Input ~ 0
 Out5
 Text GLabel 8100 2450 2    50   Input ~ 0
 Out7
-Text GLabel 7600 2350 0    50   Input ~ 0
+Text GLabel 7600 2450 0    50   Input ~ 0
 Out2
 $Comp
 L power:+3.3V #PWR0117
@@ -735,7 +733,7 @@ Text GLabel 8100 2550 2    50   Input ~ 0
 Out8
 Text GLabel 8100 2350 2    50   Input ~ 0
 Out6
-Text GLabel 7600 2550 0    50   Input ~ 0
+Text GLabel 7600 2250 0    50   Input ~ 0
 Out4
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J1
@@ -748,4 +746,6 @@ F 3 "~" H 7800 2450 50  0001 C CNN
 	1    7800 2450
 	1    0    0    -1  
 $EndComp
+Text GLabel 7600 2350 0    50   Input ~ 0
+Out3
 $EndSCHEMATC

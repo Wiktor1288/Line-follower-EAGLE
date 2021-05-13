@@ -1,4 +1,4 @@
-19082544203640592
+19101940890642315
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83033,3 +83033,87 @@ varistor SIOV
 0
 2
 2
+warsztaty
+CNY70
+
+
+0
+4
+4
+warsztaty
+GP2Y0D340K
+
+
+0
+7
+6
+warsztaty
+GP2Y0D340K_THC
+
+
+0
+7
+6
+warsztaty
+KTIR0711S
+
+
+0
+4
+4
+warsztaty
+L293D_DIP16
+16-lead dip package, row spacing 7.62 mm (300 mils), longer pads
+dil dip 2.54 300
+0
+16
+16
+warsztaty
+LM1117_SOT223
+
+
+0
+4
+3
+warsztaty
+LM1117_TO-220
+LM1117
+TO-220
+0
+3
+3
+warsztaty
+LM1117_TO-220_lezacy
+LM1117
+TO-220
+0
+4
+3
+warsztaty
+LM1117_TO-252
+MOS boitier DPACK G-D-S
+CMD DPACK
+0
+3
+3
+warsztaty
+TB6612
+24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+24
+24
+warsztaty
+TactSwitchSMD
+
+
+0
+2
+2
+warsztaty
+log
+
+
+0
+0
+0
